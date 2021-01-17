@@ -10,7 +10,8 @@ export const createPlan = () => {
         }
         plan.push(row)
     }
-
+    const yearlyPlan = createPlan ()
+    console.log(yearlyPlan)
     return plan
 }
 
